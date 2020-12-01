@@ -1,0 +1,19 @@
+#card {
+  background-color: lightblue;
+  border: 1px solid gray;
+  width:200px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0,4px,10px,10px darkcyan;
+}
+
+div {
+  padding:10px,20px;
+}
+
+footer {
+  background: lightblue;
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 3px, 7px;
+}

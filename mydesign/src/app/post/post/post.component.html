@@ -1,0 +1,16 @@
+
+<div id="post" class="container" appSelected>
+  <div class="panel panel-info">
+    <div class="panel-heading">
+      {{ this.post.title }}
+    </div>
+
+    <div class="panel-body" >
+      <span></span>  {{ this.post.body }}
+    </div>
+    <div class="panel-footer">
+      <app-post-comments [postId]="this.post.id"></app-post-comments>
+    </div>
+  </div>
+</div>
+

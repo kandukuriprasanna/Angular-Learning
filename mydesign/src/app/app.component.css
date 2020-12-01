@@ -1,0 +1,22 @@
+#header {
+  background: green;
+  padding: 30px;
+  height: 100px;
+  color: white;
+  text-align: jestify;
+}
+
+#content {
+    margin: 10px auto;
+    padding: 20px;
+    background: #eee;
+    border: 1 px gray;
+}
+
+#footer {
+  background: green;
+  padding: 10px;
+  height: 50px;
+}
+
+

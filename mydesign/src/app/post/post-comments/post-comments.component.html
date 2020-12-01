@@ -1,0 +1,11 @@
+<div class="container" appSelected>
+
+<div *ngFor="let comment of this.comments">
+    <div class="alert alert-warning">
+          Commented By: <br>
+          <span> {{ this.comment.name }} </span> <br>
+          <span> {{ this.comment.body | cutString:'20' }} </span>
+    </div>
+</div>
+
+</div>

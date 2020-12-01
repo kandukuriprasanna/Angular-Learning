@@ -1,0 +1,84 @@
+<style>
+html , body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+ border: 1px solid gray;
+ margin: 0px;
+}
+
+#site-header {
+  padding: 20px;
+  background-color: chartreuse;
+}
+
+#site-header h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#site-header nav {
+  text-align: right;
+  color: white    ;
+}
+
+#site-header nav a {
+  color: white;
+}
+
+#container {
+  width: inherit;
+}
+
+#left-section {
+    display: inline-block ;
+    width: 30%;
+    height: 300px;
+}
+
+#right-section {
+    display: inline-block;
+    width: 70%;
+    background-color: lightskyblue;
+}
+
+#site-footer {
+    float: clear;
+    height: 30px;
+    background-color:#ffe;
+}
+
+</style>
+
+<header id="site-header">
+   <h1>Self Learning</h1>
+   <nav>
+    <a href="/html/">HTML</a> |
+    <a href="/css/">CSS</a> |
+    <a href="/js/">JavaScript</a> |
+    <a href="/angular/">Python</a>
+    </nav>
+</header>
+<section id="container">
+  <!-- <div id="multi-table">
+    <label> Enter The Number:</label>
+    <input type="number" [(ngModel)]="userInput"/>
+    <app-mutitable [inNumber]="userInput"></app-mutitable>
+  </div> -->
+
+  <!-- <div id="authors">
+    <h2>Authors:</h2>
+    <p>Having Fun With Angular</p>
+    <app-card fullname="Harikrishna Kandukuri" age="31" gender="Male" (onSelect)="onCardSelected($event)"></app-card>
+    <app-card fullname="Prasanne Kandukuri"  age="23" gender="Female" ></app-card>
+  </div> -->
+
+  <app-courses></app-courses>
+
+</section>
+<footer id="site-footer">
+    @Copyrights
+</footer>
+<router-outlet></router-outlet>

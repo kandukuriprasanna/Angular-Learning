@@ -1,0 +1,35 @@
+
+
+<div class="container">
+    <section id="header">
+      <div class="container">
+        <header>
+            <h1>Trending Posts </h1>
+            <nav class="navbar navbar-default" role="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  <li>
+                    <a routerLink="/posts">Posts</a>
+                  </li>
+                  <li>
+                    <a routerLink="/user">User</a>
+                  </li>
+                  <li>
+                    <a routerLink="/admin">Admin</a>
+                  </li>
+                </ul>
+            </nav>
+        </header>
+      </div>
+    </section>
+    <section id="content">
+      <div class="container">
+        <router-outlet></router-outlet>
+      </div>
+    </section>
+    <section id="footer">
+        @copyrights
+    </section>
+</div>
+
+
+
